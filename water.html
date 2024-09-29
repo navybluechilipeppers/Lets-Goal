@@ -301,6 +301,10 @@
 
     <script>
         // Retrieve the username from localStorage
+        import { doc } from 'index.js';
+
+        console.log(doc)
+
         const username = localStorage.getItem('username') || 'User'; // Fallback to 'User' if not found
 
         // Update the greeting with the username
